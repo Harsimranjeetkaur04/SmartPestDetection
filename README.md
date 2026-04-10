@@ -69,7 +69,7 @@ npm test
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is proprietary and copyrighted by Harsimranjeet Kaur. All rights reserved.
 
 Early detection of the pests in plants and crops is a major challenge facing farmers
 these days (Gondal & Khan, 2015). The occurrence of insect pests can have significant
