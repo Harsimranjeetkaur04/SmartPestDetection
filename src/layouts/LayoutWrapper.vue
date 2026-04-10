@@ -6,6 +6,11 @@
           'dark-theme': isDarkTheme
         }">
       <slot name="content"></slot>
+      
+      <!-- Copyright text -->
+      <div class="text-center py-2 text-caption" style="color: rgba(255, 255, 255, 0.5); font-size: 11px;">
+        &copy; 2026 Harsimranjeet Kaur. All rights reserved.
+      </div>
     </v-main>
     <BottomBar />
   </v-app>
