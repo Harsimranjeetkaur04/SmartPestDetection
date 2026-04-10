@@ -506,7 +506,6 @@ onMounted(async () => {
 
 <style scoped>
 .pest-scanner-app {
-  background: #8ca189;
   min-height: 100dvh;
   overflow: auto;
 }
@@ -545,7 +544,8 @@ onMounted(async () => {
 .scan-button {
   transition: all 0.3s ease;
   letter-spacing: 0.5px;
-  background: #526e48;
+  background: rgb(var(--v-theme-primary)) !important;
+  color: white !important;
 }
 
 .image-loader {
