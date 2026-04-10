@@ -1,7 +1,7 @@
 <template>
   <v-bottom-navigation
     v-model="activeTab"
-    color="primary"
+    color="#526E48"
     grow
     class="custom-nav"
     :class="{ 'dark-theme': isDarkTheme }"
@@ -61,8 +61,8 @@ const isScanActive = ref(false);
   left: 4px !important;
   right: 4px !important;
   border-radius: 16px !important;
-  background-color: rgb(var(--v-theme-surface)) !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 6px rgba(82, 110, 72, 0.1) !important;
   height: 58px !important;  /* Reduced height */
   padding: 0 4px !important;  /* Reduced padding */
   width: calc(100% - 8px) !important;  /* Adjusted width */
@@ -74,13 +74,13 @@ const isScanActive = ref(false);
   height: 100% !important;
   border-radius: 12px !important;
   transition: all 0.2s ease;
-  color: rgb(var(--v-theme-primary)) !important;
+  color: #526E48 !important;
   min-width: 40px !important; 
   padding: 0 4px !important;  
 }
 
 .nav-button.active {
-  background-color: rgba(var(--v-theme-primary), 0.08) !important;
+  background-color: rgba(0, 0, 0, 0.08) !important;
 }
 
 .button-text {
@@ -100,6 +100,8 @@ const isScanActive = ref(false);
   justify-content: center;
 }
 
+
+
 .scan-button {
   position: absolute !important;
   width: 56px !important;
@@ -107,16 +109,15 @@ const isScanActive = ref(false);
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
   top: 50% !important;
-  color: rgb(var(--v-theme-primary)) !important;
-  background-color: rgb(var(--v-theme-surface)) !important;
+  color: #526E48 !important;
+  background-color: white !important;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
   z-index: 101;
 }
 
 .scan-button.nav-active {
-  background-color: rgb(var(--v-theme-primary)) !important;
-  color: white !important;
-  box-shadow: 0 6px 12px rgba(var(--v-theme-primary), 0.3) !important;
+  background-color: #526E48 !important;
+  box-shadow: 0 6px 12px rgba(82, 110, 72, 0.3) !important;
 }
 
 @keyframes pulse {

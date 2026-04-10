@@ -29,10 +29,13 @@ const isDarkTheme = computed(() => theme.global.current.value.dark);
 
 <style scoped>
 .v-main {
+  background-color: #8ca189 !important;
   padding-bottom: 62px !important;
   padding-top: 64px !important;
   min-height: 100vh; 
 }
 
-/* Ensure background works dynamically via vuetify classes rather than hardcodes here */
+.dark-theme {
+  background: #1e2124 !important;
+}
 </style>

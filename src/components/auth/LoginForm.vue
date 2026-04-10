@@ -55,7 +55,7 @@
             v-model="rememberMe"
             label="Remember me"
             density="comfortable"
-            color="primary"
+            color="#526E48"
             hide-details
           ></v-checkbox>
         </v-col>
@@ -65,7 +65,7 @@
             height="40"
             min-width="150"
             type="submit"
-            color="primary"
+            color="#526E48"
             :style="{ borderRadius: '10px' }"
             prepend-icon="mdi-login"
             :disabled="formAction.formProcess"
@@ -147,7 +147,7 @@ const onFormSubmit = async () => {
     font-family: "Roboto", sans-serif !important;
     font-weight: 900;
     font-size: 30px;
-    color: rgb(var(--v-theme-primary));
+    color: #526e48;
   }
 }
 

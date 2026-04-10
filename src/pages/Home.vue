@@ -554,12 +554,22 @@ onMounted(async () => {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
 
 .pest-scanner-app {
+  background: #8ca189;
   min-height: 100dvh;
 }
 
-
+.dark-theme {
+  background: #1e2124 !important;
+}
 .dark-card {
+  background-color: #2d3035 !important;
   border: 1px solid rgba(80, 80, 80, 0.7) !important;
+  color: #e0e0e0 !important;
+}
+
+.v-main {
+  background: #8ca189 !important;
+  overflow: auto;
 }
 
 .profile-avatar {
@@ -573,32 +583,28 @@ onMounted(async () => {
   max-height: calc(100vh - 64px);
 }
 
-.dashboard-card {
-  border: 1px solid rgba(16, 185, 129, 0.2);
-  transition: all 0.3s ease;
-  border-radius: 12px;
-  background-color: rgb(var(--v-theme-surface));
-  color: rgb(var(--v-theme-on-surface));
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05) !important;
-}
 
-.dashboard-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(16, 185, 129, 0.15) !important;
+
+.dashboard-card {
+  background-color: #5e7962;
+  border: 1px solid rgba(32, 63, 42, 0.7);
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  color: #ffffff;
 }
 
 .welcome-title {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
+  color: #ffffff;
   line-height: 1.3;
-  color: rgb(var(--v-theme-primary));
 }
 
 .status-text {
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
-  font-weight: 500;
+  color: #ffffff;
 }
 
 @media (max-width: 600px) {
